@@ -286,12 +286,21 @@ section .skill{
 
 
 /*footer*/
-.fot{
+
+footer{
+    background:  #2c3a47;
+}
+p.fot{
     padding: 20px;
     
-   
+    margin-bottom: 0;
     text-align: center;
     background:  #2c3a47;
 
 
+}
+
+footer li{
+    padding-top:1.5rem;
+    list-style: none;
 }
