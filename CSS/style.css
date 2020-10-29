@@ -304,3 +304,6 @@ footer li{
     padding-top:1.5rem;
     list-style: none;
 }
+footer li a{
+    color: whitesmoke;
+}
