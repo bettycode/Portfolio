@@ -69,3 +69,11 @@
   }
 
 
+  #layout{
+      background:whitesmoke;
+  }
+  #layout .card img{
+      height: 300px;
+  }
+
+
