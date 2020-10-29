@@ -52,19 +52,20 @@
 
         }
 }
+.swiper-container {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    
+  }
 
-.port-pic1,
-.port-pic2{
-    margin-bottom: 30px;
-}
- .card{
-     height: 280px;
- }
-.card img{
-    height: 280px;
-    padding: 0;
-    border: 0!important;
+  .swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 400px;
+    height: 200px;
+    background: white;
 
-}
+  }
 
 
