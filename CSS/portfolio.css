@@ -1,0 +1,83 @@
+#portfolio-back{
+    background-image:linear-gradient(#2f364010,#2f364000), url(../img/white.jpg);
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    /*height: 55rem;*/
+    padding-top: 10rem;
+    padding-bottom: 4rem;
+
+}
+
+.port .container{
+    background:black;
+    padding: 30px;
+
+}
+.port-title h2{
+    font-size: 14px;
+    font-weight: 500;
+    padding: 0;
+    line-height: 1px;
+    margin: 0 0 20px 0;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: white;
+    font-family: "Poppins", sans-serif;
+}
+.port-title h2::after{
+    content: "";
+    width: 120px;
+    height: 1px;
+    display: inline-block;
+    background: #F97F51;
+    margin: 4px 10px;
+}
+.port-title p{
+    margin: 0;
+    margin: -15px 0 15px 0;
+    font-size: 36px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: "Poppins", sans-serif;
+    color:white;
+    padding-bottom: 1rem;
+}
+
+@media (max-width:550px){
+        .port-size{
+              margin-left: 0;
+              margin-right: 0;
+
+        }
+}
+
+.port-pic1,
+.port-pic2{
+    margin-bottom: 30px;
+}
+ .card{
+     height: 280px;
+ }
+.card img{
+    height: 280px;
+    padding: 0;
+    border: 0!important;
+
+}
+
+/*footer*/
+.fot{
+    padding: 20px;
+
+   
+    text-align: center;
+    background:  #2c3a47ef;
+
+
+}
+.fot p{
+    text-align: center;
+    width: 1200px;
+}

@@ -1,0 +1,297 @@
+/*----general-----*/
+*{
+   /*-- font-family: 'Montserrat', sans-serif;--*/
+   font-family: 'Montserrat', sans-serif;
+}
+
+
+    
+/*---navbar--*/
+.step1{
+    background: #2c3a47c0;
+}
+.step0{
+    padding-top: 1.2rem;
+}
+.navbar-toggler{
+    border: solid 3px  #faede9!important ;
+    border-radius: 5px;
+}
+
+
+.Name{
+  font-weight: 500;
+  font-size: xx-large;
+  border: solid 3px  #F97F51 ;
+  border-radius: 5px;
+  padding: 2.5px;
+}
+.step2{
+margin-left: 25rem;
+
+}
+.step2 ul{
+    padding: .5rem;
+    text-align: right;
+}
+.step3{
+    padding-left: 2rem;
+    padding-right: 1rem;
+    
+}
+.step3 a{
+    font-size: 1.3rem;
+    text-transform: uppercase;
+
+    
+}
+.step3 a:hover{
+    border-bottom: solid 1px #F97F51;
+}
+/*-----background image----*/
+
+.backimg {
+    background-image:linear-gradient(#2f364000,#2f364067), url(../img/white.jpg);
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    height: 30rem;
+
+    
+}
+@media screen and (max-width:768px){
+    .step2 {
+        margin-left:0
+
+    }
+}
+@media screen and (max-width: 768px) {
+    .step4 {
+        position: absolute;
+        top: 60%;
+        left: 60%;
+        transform: translate(-60%,-60%);
+        width: auto;
+   
+    }
+}
+@media screen and (max-width:500px){
+    .step4 h1{
+        font-size: 1.5rem;
+    }
+    #hi{
+        font-size:1rem!important;
+    }
+    .step4 p{
+        font-size:1rem!important;
+    }
+}
+.step4{
+    position: absolute;
+    top:48%;
+    left: 50%;
+    transform: translate(-48%,-55%);
+ 
+    text-align: center;
+    clear: both;
+    overflow: hidden;
+}
+header h1{
+    text-align:center;
+    color: black;
+   
+   
+}
+
+.step4 p{
+    text-align:center;
+    font-weight: 400;
+    font-size: 1.4rem;
+    
+    font-family: cursive;
+    color:rgba(0, 0, 0, 0.884);
+   
+    
+}
+#hi{
+    padding-top: 1rem;
+    font-weight: 400;
+    font-size: 1.5rem;
+    
+    font-family: cursive;
+    color:rgba(0, 0, 0, 0.884);
+}
+.row.step5{
+    position: absolute;
+    top:60%;
+    left:85%;
+    transform: translate(-60%,-85%);
+    text-align:right;
+    clear: both;
+    overflow: hidden;
+}
+.social i{
+    border-radius: 5px;
+    padding: 10px;
+    
+    
+}
+.social i:hover{
+    background: #F97F51 ;
+}
+.social a{
+    color: white;
+}
+/*--About--*/
+.about-section{
+    background:rgba(0, 0, 0, 0.884);
+    padding-bottom: 4rem;
+    padding-top: 2rem;
+}
+section .about{
+    background:rgba(0, 0, 0, 0.884) ;
+    padding: 40px;
+
+}
+.about-title h2{
+    font-size: 14px;
+    font-weight: 500;
+    padding: 0;
+    line-height: 1px;
+    margin: 0 0 20px 0;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #aaaaaa;
+    font-family: "Poppins", sans-serif;
+}
+.about-title h2::after{
+    content: "";
+    width: 120px;
+    height: 1px;
+    display: inline-block;
+    background: #F97F51;
+    margin: 4px 10px;
+}
+.about-title p{
+    margin: 0;
+    margin: -15px 0 15px 0;
+    font-size: 36px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: "Poppins", sans-serif;
+    color: #fff;
+}
+.about-content h3{
+    font-weight: 700;
+    font-size: 26px;
+    color: #F97F51;
+}
+ .text-me p{
+    font-style: italic!important;
+}
+.about-icon ul i{
+    font-size: 20px;
+    padding-right: 2px;
+    color:  #F97F51;
+}
+.about-icon ul{
+    list-style: none;
+    padding-top: 10px;
+    padding: 0;
+}
+.about-icon ul li{
+    padding-bottom: 15px;
+}
+section .skill{
+    
+    background:rgba(245, 245, 245, 0.753);
+    padding: 40px;
+}
+
+#skills {
+    padding-top: 3rem;
+    background-image:linear-gradient(#2f364000,#2f364067), url(../img/white.jpg);
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    height: 30rem;
+
+    
+}
+.skill-title{
+    padding: 20px;
+    margin-top: 4px;
+}
+.skill-title h2{
+    font-size: 14px;
+    font-weight: 500;
+    padding: 0;
+    line-height: 1px;
+    margin: 0 0 20px 0;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #272727;
+    font-family: "Poppins", sans-serif;
+}
+.skill-title h2::after{
+    content: "";
+    width: 120px;
+    height: 1px;
+    display: inline-block;
+    background: #F97F51;
+    margin: 4px 10px;
+}
+.skill .upto{
+    /*height: 50px;*/
+    display: block;
+    background: none;
+}
+.skill .upto .skill-level{
+    padding: 10px 0;
+    margin: 0 0 6px 0;
+    text-transform: uppercase;
+    display: block;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    color: rgb(49, 49, 49);
+}
+.skill .upto .skill-level .val{
+    float: right;
+    font-style: normal;
+}
+.skill .upto-bar-wrap{
+    background: rgba(255, 255, 255, 0.15);
+}
+.skill .upto-bar{
+    width: 1px;
+    height: 10px;
+    transition: .9s;
+    background-color:#F97F51;
+}
+/*--button--*/
+.button-center-btn{
+    text-align:center!important ;
+    padding-top: 3rem;
+    
+}
+.btn-color{
+    background: #F97F51!important;
+    border-color:#F97F51!important ;
+    font-family: "Open Sans", sans-serif;
+    color: white;
+}
+
+
+
+/*footer*/
+.fot{
+    padding: 20px;
+    
+   
+    text-align: center;
+    background:  #2c3a47;
+
+
+}
