@@ -72,8 +72,14 @@
   #layout{
       background:whitesmoke;
   }
-  #layout .card img{
-      height: 300px;
+ 
+  #layout .row img{
+      
+     width: 100%;
+     padding: 2rem;
+    
   }
-
-
+div.text{
+    padding:2rem;
+    padding-top: 4rem;
+}
