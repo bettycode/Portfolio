@@ -1,6 +1,7 @@
 div.resume{
-    padding-top: 14rem!important;
+    background: rgba(245, 245, 245, 0.637);
     padding: 4rem;
+    padding-top: 14rem;
 }
 .one{
     text-align: center;
