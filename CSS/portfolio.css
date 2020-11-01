@@ -83,3 +83,7 @@ div.text{
     padding:2rem;
     padding-top: 4rem;
 }
+div.myshadow{
+    margin-bottom: 1rem;
+    box-shadow: -30px 30px 20px #8080804d; 
+}
