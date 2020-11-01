@@ -8,7 +8,7 @@
     
 /*---navbar--*/
 .step1{
-    background: #2c3a47c0;
+    background: #2c3a47dc;
 }
 .step0{
     padding-top: 1.2rem;
@@ -93,12 +93,12 @@ margin-left: 25rem;
 }
 
 
-@media screen and (min-width: 1024px) {
+@media screen and (max-width: 1024px) {
     .row.step4 {
         position: absolute;
-        top: 45%;
+        top: 35%;
         left: 50%;
-        transform: translate(-45%,-50%);
+        transform: translate(-35%,-50%);
         width: auto;
    
     }
@@ -241,12 +241,13 @@ section .skill{
 
 #skills {
     padding-top: 3rem;
+    padding-bottom: 3rem;
     background-image:linear-gradient(#2f364000,#2f364067), url(../img/white.jpg);
     background-size: cover; 
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
-    height: 30rem;
+    
 
     
 }
@@ -273,33 +274,12 @@ section .skill{
     background: #F97F51;
     margin: 4px 10px;
 }
-.skill .upto{
-    /*height: 50px;*/
-    display: block;
-    background: none;
+
+div.card.two{
+    border-bottom:solid 2.5px #F97F51!important;
 }
-.skill .upto .skill-level{
-    padding: 10px 0;
-    margin: 0 0 6px 0;
-    text-transform: uppercase;
-    display: block;
-    font-weight: 600;
-    font-family: "Poppins", sans-serif;
-    color: rgb(49, 49, 49);
-}
-.skill .upto .skill-level .val{
-    float: right;
-    font-style: normal;
-}
-.skill .upto-bar-wrap{
-    background: rgba(255, 255, 255, 0.15);
-}
-.skill .upto-bar{
-    width: 1px;
-    height: 10px;
-    transition: .9s;
-    background-color:#F97F51;
-}
+
+
 /*--button--*/
 .button-center-btn{
     text-align:center!important ;
@@ -333,7 +313,12 @@ p.fot{
 footer li{
     padding-top:1.5rem;
     list-style: none;
+    text-align: right;
 }
 footer li a{
     color: whitesmoke;
 }
+footer div.row{
+    padding-top: 20px;
+}
+
