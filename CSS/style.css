@@ -66,14 +66,44 @@ margin-left: 25rem;
 
     }
 }
-@media screen and (max-width: 768px) {
-    .step4 {
+
+@media screen and (max-width:320px){
+    div.card{
+        width: 12rem!important;
+       
+    }
+}
+@media screen and (min-width:320px){
+    div.about{
+        padding: 15px!important;
+       
+    }
+}
+
+
+@media screen and (min-width: 768px) {
+    .row.step4 {
         position: absolute;
-        top: 60%;
-        left: 60%;
-        transform: translate(-60%,-60%);
+        top: 35%;
+        left: 45%;
+        transform: translate(-35%,-50%);
         width: auto;
    
+    }
+}
+
+
+@media screen and (min-width: 1024px) {
+    .row.step4 {
+        position: absolute;
+        top: 45%;
+        left: 50%;
+        transform: translate(-45%,-50%);
+        width: auto;
+   
+    }
+    .backimg{
+        height: 40rem!important;
     }
 }
 @media screen and (max-width:500px){
@@ -89,9 +119,9 @@ margin-left: 25rem;
 }
 .step4{
     position: absolute;
-    top:48%;
+    top:45%;
     left: 50%;
-    transform: translate(-48%,-55%);
+    transform: translate(-45%,-55%);
  
     text-align: center;
     clear: both;

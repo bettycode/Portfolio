@@ -1,0 +1,15 @@
+div.resume{
+    padding-top: 14rem!important;
+    padding: 4rem;
+}
+.one{
+    text-align: center;
+}
+
+
+@media screen and (max-width: 784px) {
+    div.resume{
+       
+        padding: 2rem;
+    }
+}
