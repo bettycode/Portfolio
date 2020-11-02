@@ -80,7 +80,7 @@ margin-left: 25rem;
     }
 }
 
-
+/*
 @media screen and (min-width: 768px) {
     .row.step4 {
         position: absolute;
@@ -126,7 +126,8 @@ margin-left: 25rem;
     text-align: center;
     clear: both;
     overflow: hidden;
-}
+}*/
+
 header h1{
     text-align:center;
     color: black;
@@ -239,18 +240,6 @@ section .skill{
     padding: 40px;
 }
 
-#skills {
-    padding-top: 3rem;
-    padding-bottom: 3rem;
-    background-image:linear-gradient(#2f364000,#2f364067), url(../img/white.jpg);
-    background-size: cover; 
-    background-repeat: no-repeat;
-    background-position: center;
-    background-attachment: fixed;
-    
-
-    
-}
 .skill-title{
     padding: 20px;
     margin-top: 4px;
@@ -268,11 +257,16 @@ section .skill{
 }
 .skill-title h2::after{
     content: "";
-    width: 120px;
+    width: 47px;
     height: 1px;
     display: inline-block;
     background: #F97F51;
     margin: 4px 10px;
+}
+.skill li{
+    padding-bottom: 6px;
+    text-align:center ;
+    color: black;
 }
 
 div.card.two{
