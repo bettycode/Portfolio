@@ -1,1 +1,11 @@
-# Portfolio
+## Portfolio
+
+## In this project you will find :-
+
+* Updated portfolio featuring project 1 and two exemplary homework assignments.
+
+* Updated GitHub profile with pinned repositories featuring project 1 and 3 exemplary assignments.
+
+* Updated resume
+
+* Updated LinkedIn profile
