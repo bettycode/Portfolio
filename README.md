@@ -10,7 +10,15 @@
 
 * Updated LinkedIn profile
 
-## Live link to deployed app:-(https://bettycode.github.io/Portfolio)
+## Live link to deployed app:-
+
+(https://bettycode.github.io/Portfolio)
 
 ## Demo:-
 ![](./img/portfolio.gif) 
+
+## List of technologies used:-
+* HTML
+* CSS 
+* Bootstrap
+* Swiper
