@@ -15,7 +15,7 @@
 (https://bettycode.github.io/Portfolio)
 
 ## Demo:-
-![](./img/portfolio.gif) 
+![](./img/portfolio(1).gif) 
 
 ## List of technologies used:-
 * HTML
