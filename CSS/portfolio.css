@@ -77,6 +77,7 @@
       
      width: 100%;
      padding: 2rem;
+     border-radius: 10px 100px / 120px;
     
   }
 div.text{
@@ -86,4 +87,5 @@ div.text{
 div.myshadow{
     margin-bottom: 1rem;
     box-shadow: -30px 30px 20px #8080804d; 
+    border-radius: 10px 100px / 120px;
 }
